@@ -80,7 +80,7 @@ body {
 .sidebar__5e434 /* server list + channel list + user panel group */,
 .popout__0bd4a .content__0bd4a /* VC popout spacing */ {
     margin: 0 var(--gap) var(--gap) var(--gap);
-    background-color: var(--bg-2);
+
 
 }
 
@@ -142,6 +142,7 @@ body {
 
 .wrapper_ef3116 /* remove server list shadow */ {
     mask: none;
+    
 }
 
 .chat_f75fb0 /* chat group outer */ {
