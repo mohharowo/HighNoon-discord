@@ -1,5 +1,5 @@
 # HighNoon
-<img width=800 src="">
+<img width=800 src="https://github.com/mohharowo/HighNoon-discord/blob/master/assets/HighNoon.png">
 
 a light, customizable discord theme.
 
