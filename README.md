@@ -1,4 +1,5 @@
 # HighNoon
+<img width=800 src="">
 
 a light, customizable discord theme.
 

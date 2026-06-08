@@ -80,11 +80,14 @@ body {
 .sidebar__5e434 /* server list + channel list + user panel group */,
 .popout__0bd4a .content__0bd4a /* VC popout spacing */ {
     margin: 0 var(--gap) var(--gap) var(--gap);
+    background-color: var(--bg-2);
+
 }
 
 .guilds__5e434 /* server list */ {
     margin-bottom: calc(var(--custom-app-panels-height, 0) + var(--gap));
     margin-right: var(--gap);
+    background-color: var(--bg-2);
 }
 .guilds__5e434 + div:not(.sidebarList__5e434) /* betterfolders */ {
     width: 100% !important;
@@ -102,6 +105,8 @@ body {
 
 .sidebarList__5e434 /* channel list */ {
     margin-bottom: calc(var(--custom-app-panels-height, 0) + var(--gap));
+    background-color: var(--bg-2);
+
 }
 .container__2637a /* channel list inner */ {
     padding-bottom: 0;
@@ -737,29 +742,29 @@ body {
 
 :root {
     /* text colors */
-    --text-0: var(--bg-4); /* text on colored elements */
-    --text-1: hsl(220, 45%, 95%); /* other normally white text */
-    --text-2: hsl(220, 25%, 70%); /* headings and important text */
-    --text-3: hsl(220, 20%, 60%); /* normal text */
-    --text-4: hsl(220, 15%, 40%); /* icon buttons and channels */
-    --text-5: hsl(220, 15%, 25%); /* muted channels/chats and timestamps */
+    --text-0: var(--bg-2); /* text on colored elements */
+    --text-1: #191715; /* other normally white text */
+    --text-2: #322F2A; /* headings and important text */
+    --text-3: #4B473F; /* normal text */
+    --text-4: #645F54; /* icon buttons and channels */
+    --text-5: #7D7769; /* muted channels/chats and timestamps */
 
     /* background and dark colors */
-    --bg-1: hsl(220, 15%, 20%); /* dark buttons when clicked */
-    --bg-2: hsl(220, 15%, 16%); /* dark buttons */
-    --bg-3: hsl(220, 15%, 13%); /* spacing, secondary elements */
-    --bg-4: hsl(220, 15%, 10%); /* main background color */
-    --hover: hsla(221, 19%, 40%, 0.1); /* channels and buttons when hovered */
-    --active: hsla(220, 19%, 40%, 0.2); /* channels and buttons when clicked or selected */
-    --active-2: hsla(220, 19%, 40%, 0.3); /* extra state for transparent buttons */
-    --message-hover: hsla(230, 0%, 0%, 0.1); /* messages when hovered */
+    --bg-1: #8EAA8E; /* dark buttons when clicked */
+    --bg-2:#9EBD9E; /* dark buttons */
+    --bg-3: #FAEED3; /* spacing, secondary elements */
+    --bg-4: #FFF1E2; /* main background color */
+    --hover: hsla(0, 0%, 23%, 0.1); /* channels and buttons when hovered */
+    --active: #9EBD9E; /* channels and buttons when clicked or selected */
+    --active-2: #635c8a4d; /* extra state for transparent buttons */
+    --message-hover: #0000001a; /* messages when hovered */
 
     /* accent colors */
-    --accent-1: var(--blue-1); /* links and other accent text */
-    --accent-2: var(--blue-2); /* small accent elements */
-    --accent-3: var(--blue-3); /* accent buttons */
-    --accent-4: var(--blue-4); /* accent buttons when hovered */
-    --accent-5: var(--blue-5); /* accent buttons when clicked */
+    --accent-1: #8C1919; /* links and other accent text */
+    --accent-2: #867a6d; /* small accent elements */
+    --accent-3: #9e3131; /* accent buttons */
+    --accent-4: #882d2d; /* accent buttons when hovered */
+    --accent-5: #882d2d; /* accent buttons when clicked */
     --accent-new: var(--blue-2); /* stuff that's normally red like mute/deafen buttons */
     --mention: linear-gradient(to right, color-mix(in hsl, var(--blue-2), transparent 90%) 40%, transparent); /* background of messages that mention you */
     --mention-hover: linear-gradient(to right, color-mix(in hsl, var(--blue-2), transparent 95%) 40%, transparent); /* background of messages that mention you when hovered */
@@ -779,35 +784,35 @@ body {
     --button-border: hsl(0, 0%, 100%, 0.1); /* neutral border color of buttons */
 
     /* base colors */
-    --red-1: oklch(76% 0.12 0);
-    --red-2: oklch(70% 0.12 0);
-    --red-3: oklch(64% 0.12 0);
-    --red-4: oklch(58% 0.12 0);
-    --red-5: oklch(52% 0.12 0);
+    --red-1: #ee86a3;
+    --red-2: #b32525;
+    --red-3: #af3a3a;
+    --red-4: #A14343;
+    --red-5: #AA5555;
 
-    --green-1: oklch(76% 0.11 170);
-    --green-2: oklch(70% 0.11 170);
-    --green-3: oklch(64% 0.11 170);
-    --green-4: oklch(58% 0.11 170);
-    --green-5: oklch(52% 0.11 160);
+    --green-1: #89b377;
+    --green-2: #779968;
+    --green-3: #6a8b5b;
+    --green-4: #6a8b5b;
+    --green-5: #31728c;
 
-    --blue-1: oklch(76% 0.1 215);
-    --blue-2: oklch(70% 0.1 215);
-    --blue-3: oklch(64% 0.1 215);
-    --blue-4: oklch(58% 0.1 215);
-    --blue-5: oklch(52% 0.1 215);
+    --blue-1: hsl(189deg, 43%, 78%);
+    --blue-2: #9dcfd8;
+    --blue-3: hsl(189deg, 43%, 73%);
+    --blue-4: hsl(189deg, 43%, 68%);
+    --blue-5: hsl(189deg, 43%, 63%);
 
-    --yellow-1: oklch(80% 0.11 90);
-    --yellow-2: oklch(74% 0.11 90);
-    --yellow-3: oklch(68% 0.11 90);
-    --yellow-4: oklch(62% 0.11 90);
-    --yellow-5: oklch(56% 0.11 90);
+    --yellow-1: hsl(35deg, 88%, 77%);
+    --yellow-2: hsl(35deg, 88%, 72%);
+    --yellow-3: hsl(35deg, 88%, 72%);
+    --yellow-4: hsl(35deg, 88%, 67%);
+    --yellow-5: hsl(35deg, 88%, 62%);
 
-    --purple-1: oklch(76% 0.11 310);
-    --purple-2: oklch(70% 0.11 310);
-    --purple-3: oklch(64% 0.11 310);
-    --purple-4: oklch(58% 0.11 310);
-    --purple-5: oklch(52% 0.11 310);
+    --purple-1: hsl(267deg, 57%, 83%);
+    --purple-2: hsl(267deg, 57%, 78%);
+    --purple-3: hsl(267deg, 57%, 78%);
+    --purple-4: hsl(267deg, 57%, 73%);
+    --purple-5: hsl(267deg, 57%, 68%);
 }
 
 @container root style(--colors: on) {
@@ -1921,6 +1926,8 @@ body {
     .recentsIcon_c99c29:hover .iconBadge__9293f {
         background: var(--white);
     }
+
+
 }
 
 @container body style(--top-bar-button-position: titlebar) {
