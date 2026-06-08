@@ -3,12 +3,13 @@
  * @description a light, customizable discord theme.
  * @author refact0r, mohhar
  * @version 1
- * @source https://github.com/refact0r/midnight-discord/blob/master/themes/flavors/midnight-rose-pine-moon.theme.css
-
+ * @source https://github.com/mohharowo/HighNoon-discord/blob/master/themes/HighNoon.theme.css
+ * @authorId 508863359777505290
+ *
 */
 
 /* import theme modules */
-@import url('https://mohhar.github.io/HighNoon/build/HighNoon.css');
+@import url('https://mohharowo.github.io/HighNoon/build/HighNoon.css');
 
 body {
     /* font, change to '' for default discord font */
